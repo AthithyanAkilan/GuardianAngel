@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.athithyan.guardianangel.StartActivity">
+    <item
+        android:id="@+id/home_tool_option"
+        android:orderInCategory="100"
+        android:title="Home"
+        app:showAsAction="never"
+        android:onClick="callHome"/>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"
+        android:onClick="callSettings"/>
+    <item
+        android:id="@+id/action_detonate_screen"
+        android:orderInCategory="100"
+        android:title="Detonate Screen"
+        app:showAsAction="never"
+        android:onClick="callDetonateScreen"/>
+</menu>

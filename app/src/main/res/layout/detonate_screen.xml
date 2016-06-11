@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="5.5">
+
+        <TextView
+            android:id="@+id/countdown_time"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#eeff41"
+            android:paddingLeft="50dp"
+            android:paddingTop="15dp"
+            android:textSize="50dp"/>
+
+        <TextView
+            android:id="@+id/callPoliceButton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#f44336"
+            android:paddingLeft="50dp"
+            android:paddingTop="15dp"
+            android:text="Call Police"
+            android:textSize="50dp"
+            android:onClick="callPolice"/>
+
+        <TextView
+            android:id="@+id/callDoctorButton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#76ff03"
+            android:paddingLeft="50dp"
+            android:paddingTop="15dp"
+            android:text="Call Doctor"
+            android:textSize="50dp"
+            android:onClick="callDoctor"/>
+
+        <TextView
+            android:id="@+id/callFamilyButton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#ff4081"
+            android:paddingLeft="50dp"
+            android:paddingTop="15dp"
+            android:text="Call Family"
+            android:textSize="50dp"
+            android:onClick="callFamily"/>
+
+        <TextView
+            android:id="@+id/iAmSafeButton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:background="#2196f3"
+            android:paddingLeft="50dp"
+            android:paddingTop="35dp"
+            android:text="I am Safe"
+            android:textSize="50dp"
+            android:onClick="iAmSafe"/>
+    </LinearLayout>
+</ScrollView>
+
